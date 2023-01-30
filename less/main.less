@@ -1,0 +1,145 @@
+// out: "../css/main.css", compress: true, sourceMap: true
+@color_body: #333333;
+
+body {
+
+    width: 1920px;
+    max-width: 100hv;
+    margin-left: 312px;
+    background-color: @color_body;
+}
+
+#up_menu {
+
+    display: flex;
+
+    .logotype {
+        margin-top: 36px;
+
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 45px;
+        padding-left: 211px;
+        width: 450px;
+
+        div {
+            padding-right: 30px;
+
+            a {
+                text-decoration: none;
+                font-family: 'Stolzl';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 150%;
+                color: #FFFFFF;
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+            }
+        }
+
+
+    }
+
+    button {
+
+        border-bottom-style: 10px;
+        background-color: @color_body;
+        border-color: red;
+        border-radius: 10px;
+        margin-top: 30px;
+        margin-left: 550px;
+        padding: 15px;
+        text-decoration: none;
+        font-family: 'Stolzl';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+
+}
+
+#content {
+    display: flex;
+    width: 416px;
+    height: 542px;
+    padding-top: 55px;
+
+    .today {
+        button {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 10px 20px 7px;
+            gap: 10px;
+
+            position: absolute;
+            width: 154px;
+            height: 44px;
+            left: 372px;
+            top: 437px;
+
+            /* white */
+
+            background: #FFFFFF;
+            border-radius: 5px;
+        }
+
+
+        img {
+            width: 856px;
+            height: 540px;
+        }
+    }
+
+    .later {
+        background-color: #2e231c;
+        display: flex;
+        height: 540px;
+
+        button {
+            width: 208px;
+
+            justify-content: center;
+            border: none;
+            background: rgba(213, 98, 29, 0.1);
+            border-radius: 5px 5px 0px 0px;
+
+
+
+
+
+            background: rgba(213, 98, 29, 0.1);
+            font-family: 'Gotham Pro';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 150%;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+
+        div {
+            img {
+                padding: 15px 35px;
+
+            }
+        }
+
+    }
+
+
+}
